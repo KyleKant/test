@@ -10,15 +10,6 @@
 	<script src="https://kit.fontawesome.com/bb93b6c71d.js"></script>
 </head>
 <body ng-app="myApp" ng-controller="MyController">
-	<div class="khoi1 cards"  ng-show="showTextBox">
-		<b>{{contentText}}</b>
-		<button class="btn btn-info" ng-click="toogleTextBox()"><i class="fa fa-pencil"></i></button>
-	</div>
-	<div class="khoi2 cards"  ng-show="!showTextBox" >
-		<input type="text" class="form-control-success" ng-model="contentText">
-		<button class="btn btn-success" ng-click="toogleTextBox()"><i class="fa fa-check"></i></button>
-		<button class="btn btn-danger" ng-click="toogleTextBox()"><i class="fa fa-close"></i></button>
-	</div>
 	<div class="printout">
 		<div class="container">
 			<div class="jumbotron">
